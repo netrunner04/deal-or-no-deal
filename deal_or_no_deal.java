@@ -58,25 +58,6 @@ public class deal_or_no_deal
   {
     System.out.println("\nSuitcases:");
 
-    try
-      {
-        File valueInstr = new File("values_instruction.txt");
-        Scanner valueinstrReader = new Scanner(valueInstr);
-
-        while(valueinstrReader.hasNextLine())
-          {
-            String valueinstrContent = valueinstrReader.nextLine();
-            System.out.println(valueinstrContent);
-          }
-        valueinstrReader.close();
-      }
-
-    catch(FileNotFoundException e2)
-    {
-      System.out.println("An error occurred. File not found.");
-      e2.printStackTrace();
-    }
-  
     System.out.println("\nPlease choose a Suitcase:");
     int valueChoice = user_input.nextInt();
   }
