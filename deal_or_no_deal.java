@@ -85,7 +85,7 @@ public class deal_or_no_deal
     Scanner readChoice = new Scanner(System.in);
     int valueChoice = readChoice.nextInt();
     readChoice.close();
-    System.int.println(valueChoice);
+    System.out.println(valueChoice);
   }
   
   public static void offer_calc()
