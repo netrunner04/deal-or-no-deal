@@ -19,3 +19,5 @@ The bank has a set of briefcases, each containing a known amount of money, which
 The game continues **until**:
 - The contestant **accepts a bank offer**, or
 - The contestant receives the **contents of the final briefcase**.
+
+**Note**: The game is console-based and **still in progress**
