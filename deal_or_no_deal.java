@@ -102,6 +102,7 @@ public class deal_or_no_deal
       default:
       {
         System.out.println("wrong input\n");
+        user_choice(user_input);
       }
     }
   }
